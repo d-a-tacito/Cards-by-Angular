@@ -1,0 +1,13 @@
+.card{
+  background-color: gray;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 300px;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.card>p{
+}
