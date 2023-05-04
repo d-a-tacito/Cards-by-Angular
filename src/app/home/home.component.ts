@@ -6,10 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
+
   cards =[
     {
       id:1,
-      image: "/src/app/img/iphone.png",
+      image: "iphone.png",
       description: "This is Iphone 14 Pro Max"
     },
     {

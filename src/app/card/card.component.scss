@@ -1,13 +1,14 @@
 .card{
-  background-color: gray;
-  color: white;
+  border: coral solid 3px;
+  border-radius: 10px;
   font-size: 18px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 300px;
   justify-content: space-around;
-  margin-bottom: 20px;
+  margin: 0 20px;
 }
-.card>p{
+img{
+  margin-top: 10px;
 }

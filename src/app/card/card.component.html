@@ -1,4 +1,4 @@
 <div class="card">
-  <img bind-src="image">
+  <img [src] = "'/assets/img/'+image" [ngStyle]="{'width.px':200}">
   <p>{{description}}</p>
 </div>
